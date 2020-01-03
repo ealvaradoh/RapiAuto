@@ -174,19 +174,29 @@
             // 
             // tssServidor
             // 
+            this.tssServidor.AutoSize = false;
             this.tssServidor.AutoToolTip = true;
+            this.tssServidor.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.tssServidor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.tssServidor.Name = "tssServidor";
-            this.tssServidor.Size = new System.Drawing.Size(167, 20);
-            this.tssServidor.Text = "Servidor: ----------------";
+            this.tssServidor.Size = new System.Drawing.Size(200, 20);
+            this.tssServidor.Text = "Servidor:";
+            this.tssServidor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tssServidor.ToolTipText = "Servidor:";
             // 
             // tssUsuario
             // 
+            this.tssUsuario.AutoSize = false;
             this.tssUsuario.AutoToolTip = true;
+            this.tssUsuario.BorderSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
+            | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.tssUsuario.Name = "tssUsuario";
-            this.tssUsuario.Size = new System.Drawing.Size(164, 20);
-            this.tssUsuario.Text = "Usuario:-----------------";
+            this.tssUsuario.Size = new System.Drawing.Size(200, 20);
+            this.tssUsuario.Text = "Usuario:";
+            this.tssUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // formMenu
             // 
@@ -198,7 +208,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formMenu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
