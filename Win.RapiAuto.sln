@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.RapiAuto", "Win.RapiAuto\Win.RapiAuto.csproj", "{61A59B5F-17E9-45C2-865D-79053EB8B9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.RapiAuto", "BL.RapiAuto\BL.RapiAuto.csproj", "{10D0AA12-79FD-451D-AE6C-21F67E26B972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A59B5F-17E9-45C2-865D-79053EB8B9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A59B5F-17E9-45C2-865D-79053EB8B9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A59B5F-17E9-45C2-865D-79053EB8B9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A59B5F-17E9-45C2-865D-79053EB8B9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D0AA12-79FD-451D-AE6C-21F67E26B972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D0AA12-79FD-451D-AE6C-21F67E26B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D0AA12-79FD-451D-AE6C-21F67E26B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D0AA12-79FD-451D-AE6C-21F67E26B972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {796D7954-DE57-4A25-86FB-1C2804F8259C}
+	EndGlobalSection
+EndGlobal
