@@ -10,7 +10,7 @@ namespace BL.RapiAuto
 {
     public class Contexto: DbContext
     {
-        public Contexto(): base ("Videojuegos")
+        public Contexto(): base ("RapiAuto")
         {
 
         }
