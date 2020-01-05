@@ -10,10 +10,11 @@ namespace BL.RapiAuto
 {
     public class Contexto: DbContext
     {
-        public Contexto(): base ("RapiAuto")
+        public Contexto(): base ("data source = NETO-PC; initial catalog = RapiAuto; user id = sa; password = 1802net%")
         {
 
         }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
